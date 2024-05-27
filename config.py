@@ -15,13 +15,13 @@ from logging.handlers import RotatingFileHandler
 
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+APP_ID = int(os.environ.get("APP_ID", "23912524"))
+API_HASH = os.environ.get("API_HASH", "3dcfae948692e9831e66f6c2e836e1f7")
 
 
-OWNER = os.environ.get("OWNER", "") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
+OWNER = os.environ.get("OWNER", "@thorendra") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "6367302898")) #Owner user id
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://sunitverma080:4LYZiim5L31SCNBz@realfree.3s31w2j.mongodb.net/?retryWrites=true&w=majority&appName=Realfree")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
@@ -43,8 +43,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 
 try:
-    ADMINS=[7085541484]
-    for x in (os.environ.get("ADMINS", "5115691197 6273945163 6103092779 5231212075").split()):
+    ADMINS=[6367302898,]
+    for x in (os.environ.get("ADMINS", "6367302898,").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -61,8 +61,8 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot !"
 
-ADMINS.append(OWNER_ID)
-ADMINS.append(7085541484)
+ADMINS.append(6367302898)
+ADMINS.append(6367302898)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
