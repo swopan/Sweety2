@@ -19,14 +19,14 @@ APP_ID = int(os.environ.get("APP_ID", "23912524"))
 API_HASH = os.environ.get("API_HASH", "3dcfae948692e9831e66f6c2e836e1f7")
 
 
-OWNER = os.environ.get("OWNER", "@thorendra") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "6367302898")) #Owner user id
+OWNER = os.environ.get("OWNER", "@Torreto08") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "5381212561")) #Owner user id
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://sunitverma080:4LYZiim5L31SCNBz@realfree.3s31w2j.mongodb.net/?retryWrites=true&w=majority&appName=Realfree")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002087400589"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002056161738"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002222805776"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002161331957"))
 
 
 SECONDS = int(os.getenv("SECONDS", "600")) # auto delete in seconds
