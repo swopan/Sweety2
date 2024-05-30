@@ -15,8 +15,8 @@ from logging.handlers import RotatingFileHandler
 
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6878401039:AAFoQqlNuKZX7U5a0TsacQGgayuhcfbLtfw")
-APP_ID = int(os.environ.get("APP_ID", "23912524"))
-API_HASH = os.environ.get("API_HASH", "3dcfae948692e9831e66f6c2e836e1f7")
+APP_ID = int(os.environ.get("APP_ID", "21707242"))
+API_HASH = os.environ.get("API_HASH", "fec925df48cd2e0393c4bf382ea8c861")
 
 
 OWNER = os.environ.get("OWNER", "@Torreto08") #Owner username
