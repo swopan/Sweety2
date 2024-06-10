@@ -14,19 +14,19 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6878401039:AAFoQqlNuKZX7U5a0TsacQGgayuhcfbLtfw")
-APP_ID = int(os.environ.get("APP_ID", "21707242"))
-API_HASH = os.environ.get("API_HASH", "fec925df48cd2e0393c4bf382ea8c861")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6421545935:AAG4flC15BJB5lZLt47qk0G1wo0RujIbyVw")
+APP_ID = int(os.environ.get("APP_ID", "23004940"))
+API_HASH = os.environ.get("API_HASH", "25c013f901474cffcad6a9d03e3a06bb")
 
 
-OWNER = os.environ.get("OWNER", "@Torreto08") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "5381212561")) #Owner user id
+OWNER = os.environ.get("OWNER", "Flex080") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "7258325900")) #Owner user id
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://sunitverma080:4LYZiim5L31SCNBz@realfree.3s31w2j.mongodb.net/?retryWrites=true&w=majority&appName=Realfree")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001674813715"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002123262854"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002236755037"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001638464949"))
 
 
 SECONDS = int(os.getenv("SECONDS", "600")) # auto delete in seconds
@@ -43,7 +43,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store privat
 
 try:
     ADMINS=[7085541484]
-    for x in (os.environ.get("ADMINS", "6367302898 5857939104 5381212561 1707099600").split()):
+    for x in (os.environ.get("ADMINS", "5857939104 5857939104 6367302898").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -60,8 +60,8 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot !"
 
-ADMINS.append(6931135453)
-ADMINS.append(6367302898)
+ADMINS.append(7258325900)
+ADMINS.append(7258325900)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
