@@ -21,13 +21,13 @@ API_HASH = os.environ.get("API_HASH", "bfc7ff263795b22bb7065abe95bed3a2")
 
 OWNER = os.environ.get("OWNER", "@Patel_080") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "5284816025")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://sunitverma080:mg0Pd4Pdf0UD0Ou8@merabot1.dcduprk.mongodb.net/?retryWrites=true&w=majority&appName=merabot1")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002147039566"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001567609802"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001638464949"))
 
 
 SECONDS = int(os.getenv("SECONDS", "600")) # auto delete in seconds
@@ -43,8 +43,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 
 try:
-    ADMINS=[7085541484]
-    for x in (os.environ.get("ADMINS", "5115691197 6273945163 6103092779 5231212075").split()):
+    ADMINS=[6367302898]
+    for x in (os.environ.get("ADMINS", "5284816025 6367302898 5857939104").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -61,8 +61,8 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot !"
 
-ADMINS.append(OWNER_ID)
-ADMINS.append(7085541484)
+ADMINS.append(5284816025)
+ADMINS.append(5284816025)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
