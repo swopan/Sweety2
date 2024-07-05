@@ -26,14 +26,14 @@ DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002147039566"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002219866724"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002161248543"))
 
 
 SECONDS = int(os.getenv("SECONDS", "600")) # auto delete in seconds
 
 
 
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8083")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
 
@@ -43,7 +43,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store privat
 
 try:
     ADMINS=[7085541484]
-    for x in (os.environ.get("ADMINS", "5857939104 5284816025 5857939104 6367302898").split()):
+    for x in (os.environ.get("ADMINS", "5857939104 5284816025 5857939104 7208538115").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
